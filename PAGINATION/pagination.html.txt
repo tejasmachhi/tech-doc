@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.pagination a {
+border:2px solid #00aeef;
+border-radius:50%;
+  color: #00aeef;
+
+  padding: 10px 10px;
+  margin:8px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+</head>
+<body>
+
+
+<div class="pagination">
+  <a href="#">&lt;</a>
+  <a href="#">1</a>
+  <a  href="#">2</a>
+<span>&#183;&#183;&#183;</span>
+   <a href"#">10</a>
+  <a href="#">	&gt;</a>
+</div>
+
+</body>
+</html>
